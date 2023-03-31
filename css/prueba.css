@@ -190,6 +190,9 @@ body {
     .col-16{
         margin: 3rem;
     }
+    .contenedor_padre{
+        transform: scale(1);
+    }
 }
 @media screen and (min-width:2400px) {
     .contenedor_numeros_rifa{
