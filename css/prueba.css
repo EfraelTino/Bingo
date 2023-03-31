@@ -191,6 +191,15 @@ body {
         margin: 3rem;
     }
     .contenedor_padre{
-        transform: scale(.7);
+        transform: scale(.9);
+    }
+}
+@media screen {
+    .contenedor_numeros_rifa{
+        top: calc(50% + 1vw);
+        left: 50%;
+    }
+    .col-16{
+        margin: 5rem;
     }
 }
