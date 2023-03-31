@@ -80,7 +80,7 @@ body {
 }
 
 #bola {
-    font-size: 1vw;
+    font-size: 2vw;
     display: block;
     margin: 25px auto;
     width: 8rem;
@@ -123,7 +123,7 @@ body {
 }
 
 .grande_ganador {
-    font-size: 1.5rem;
+    font-size: 1vw;
     position: relative;
     z-index: 1000 !important;
     margin-bottom: -4rem !important;
@@ -189,9 +189,6 @@ body {
 
     .col-16{
         margin: 3rem;
-    }
-    .contenedor_padre{
-        transform: scale(.9);
     }
 }
 @media screen and (min-width:2400px) {
