@@ -80,7 +80,7 @@ body {
 }
 
 #bola {
-    font-size: 50px;
+    font-size: 1vw;
     display: block;
     margin: 25px auto;
     width: 8rem;
@@ -194,12 +194,24 @@ body {
         transform: scale(.9);
     }
 }
-@media screen {
+@media screen and (min-width:2400px) {
     .contenedor_numeros_rifa{
         top: calc(50% + 1vw);
         left: 50%;
     }
     .col-16{
         margin: 5rem;
+    }
+    .child{
+        top: 55%;
+    }
+    .img_numeros{
+        width: 100%;
+    }
+    .letra_ganador {
+        font-size: 1vw;
+    }
+    .numero_ganador {
+        font-size: 2vw;
     }
 }
