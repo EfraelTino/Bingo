@@ -1,0 +1,196 @@
+body {
+  background-image: url(../img/FONDO-NAYASA.png);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+ 
+}
+.grandeza{
+    width:28.125rem;
+}
+.fondo_11{
+    width: 25rem;
+}
+.mi_row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.col-16 {
+    width: calc(100% / 18);
+    margin: 0 1rem;
+}
+
+.row_numeros {
+    position: relative;
+}
+
+.contenedor_numeros_rifa {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+.fichas_contenedor {
+    position: relative;
+}
+.img_bingo{
+    width: 70rem;
+}
+.bolitas{
+    max-width: 100%;
+    height: auto;
+}
+.btn_ganador {
+    background: none;
+    border: none;
+    position: relative;
+}
+
+.ficha_ganador {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.btn_escoger {
+    background: none;
+    border: none;
+}
+
+.fichas_escoger {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    line-height: 5px;
+}
+
+.letra_escoger {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1vw;
+    font-weight: 700;
+    font-style: italic;
+}
+
+#bola {
+    font-size: 50px;
+    display: block;
+    margin: 25px auto;
+    width: 8rem;
+    line-height: 8rem;
+    border-radius: 50%;
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+}
+
+.contendor_numeros {
+    position: relative;
+}
+
+.child {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fichas_contenedor {
+    position: relative;
+}
+
+.fichas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    line-height: 5px;
+}
+
+.grande_ganador,
+.numero_grande {
+    color: white;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.grande_ganador {
+    font-size: 1.5rem;
+    position: relative;
+    z-index: 1000 !important;
+    margin-bottom: -4rem !important;
+}
+
+.letra_ganador,
+.numero_ganador {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.img_numeros {
+    width: 85px;
+}
+
+.letra_ganador {
+    font-size: .8rem;
+}
+
+.numero_ganador {
+    font-size: 1vw;
+}
+.img_9{
+    width: 80%;
+}
+@media only screen and (min-width:1040px){
+    body{
+        overflow: auto;
+    }
+    .img_bingo{
+        width: 40rem;
+    }
+    .contenedor_numeros_rifa{
+        top: calc(50% + 1vw);
+        left: calc(50% - 1vw)
+    }
+    .letra_escoger{
+        font-size: 1.4vw;
+    }
+
+}
+@media only screen and (min-width:1200px) {
+    .contenedor_numeros_rifa{
+        top: calc(55% - 1vw);
+        left: 50%;
+    }
+    
+}
+@media only screen and (min-width:1400px) {
+    .contenedor_numeros_rifa{
+        top: calc(50% + 2vw);
+        left: 50%;
+    }
+    .col-16{
+        margin: 2.2rem;
+    }
+}
+@media only screen and (min-width:1800px){
+    body{
+        overflow: auto;
+    }
+
+
+    .col-16{
+        margin: 3rem;
+    }
+    .contenedor_padre{
+        transform: scale(.5);
+    }
+}

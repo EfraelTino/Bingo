@@ -1,0 +1,517 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.childs-4 {
+  background-image: url(../img/FONDO-NAYASA.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 100vh;
+  left: 0%;
+  transform: translate(0%, 0%);
+}
+
+.img_grandeza {
+  width: 310px;
+}
+
+.img_numeros {
+  width: 60px;
+}
+
+.contendor_numeros {
+  position: relative;
+}
+
+.child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.numero_grande {
+  position: relative;
+}
+
+.ficha_grande {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 5px;
+
+}
+.ficha_ganador{
+  background: none;
+  border: none;
+}
+.img_primero {
+  width: 120px;
+}
+
+.fichas_contenedor {
+  position: relative;
+}
+
+.img_9 {
+  width: 320px;
+}
+
+.grande_ganador,
+.numero_grande {
+  color: white;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.grande_ganador {
+  font-size: 1.5rem;
+}
+
+.numero_grande {
+  font-size: 1.5rem;
+}
+
+.fichas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  line-height: 5px;
+}
+
+.letra_ganador,
+.numero_ganador {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.letra_ganador {
+  font-size: .8rem;
+}
+
+.numero_ganador {
+  font-size: 1rem;
+}
+#mi-imagen {
+  width: 200px; 
+  height: 200px;
+  position: relative;
+  animation-name: animar-imagen;
+  animation-duration: 3s; 
+  animation-iteration-count: infinite; 
+  animation-timing-function: ease-in-out; 
+        z-index: 1000;
+}
+
+@keyframes animar-imagen {
+  0% {
+    transform: scale(1); 
+  }
+  50% {
+    transform: scale(1.3); 
+  }
+  100% {
+    transform: scale(1); 
+  }
+}
+
+.row_numeros {
+  position: relative;
+}
+
+.contenedor_numeros_rifa {
+  position: absolute;
+  top: 52.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.primero {
+  position: relative;
+}
+
+.fichas_escoger {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  line-height: 5px;
+}
+
+.btn_escoger {
+  background: none;
+  border: none;
+}
+
+.letra_escoger {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  /*color: white;*/
+  font-size: .6rem;
+  font-weight: 700;
+  font-style: italic;
+}
+:root {
+  --font-sans: font-family: sans-serif;
+}
+
+.img_1 {
+  width: 100vw !important;
+  height: 100vh !important;
+}
+
+.logo {
+  position: relative;
+}
+
+.logo_nayasa {
+  width: 220px;
+}
+
+.logo .logo_fanalca {
+  position: absolute;
+  top: 10% !important;
+  right: 0;
+  z-index: 100;
+  width: 220px !important;
+
+}
+
+.desmuetra_tu_grandeza {
+  width: 280px;
+  z-index: 100;
+
+}
+
+.carousel-caption {
+  top: 30%;
+  bottom: auto;
+}
+
+.carousel-content-top {
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+
+.carousel-content {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: white;
+}
+
+.conecate {
+  width: 250px;
+}
+
+.btn-comienza {
+  background: none;
+  border: none;
+}
+
+.comienza_ahora_imagen {
+  width: 250px;
+}
+
+.modal-dialog {
+  background: url(img/3.png);
+  border-radius: 50px;
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.lista_terminos {
+  width: 300px;
+}
+
+.resp {
+  border-radius: 50px;
+}
+
+.modal_terminos {
+  width: 250px;
+}
+
+.bingo {
+  width: 220px;
+}
+
+.label-title {
+  font-weight: 500;
+  font-style: italic;
+}
+
+@media (min-device-width: 576px) and (max-device-width: 768px) {
+  .carousel-caption {
+      top: 20%;
+  }
+
+  .logo_nayasa {
+      width: 200px;
+  }
+
+  .desmuetra_tu_grandeza {
+      width: 450px;
+  }
+
+  .modal_terminos {
+      width: 400px;
+  }
+
+  .lista_terminos {
+      width: 490px;
+  }
+
+  .modal-dialog {
+      margin: 30px auto;
+  }
+
+  .bingo {
+      width: 320px;
+  }
+
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1200px) {
+  .carousel-caption {
+      top: 10%;
+  }
+
+  .logo_nayasa {
+      width: 250px;
+  }
+
+  .desmuetra_tu_grandeza {
+      width: 700px;
+  }
+
+  .conecate {
+      width: 350px;
+  }
+
+  .comienza_ahora_imagen {
+      width: 350px;
+  }
+
+}
+
+@media (min-device-width:1200px) and (max-device-width:1500px) {
+  .carousel-caption {
+      top: 10%;
+  }
+
+  .logo_nayasa {
+      width: 400px;
+  }
+
+  .desmuetra_tu_grandeza {
+      width: 1000px;
+  }
+
+  .conecate {
+      width: 350px;
+  }
+
+  .comienza_ahora_imagen {
+      width: 350px;
+  }
+
+  .modal_terminos {
+      padding-top: 4rem;
+      margin: 1rem;
+      width: 550px;
+  }
+
+  .lista_terminos {
+      width: 750px;
+  }
+
+  .bingo {
+      width: 320px;
+  }
+}
+
+@media (min-device-width:1500px) {
+  .carousel-caption {
+      top: 5%;
+  }
+
+  .logo_nayasa {
+      width: 500px;
+  }
+  .comienza_ahora_imagen {
+      width: 350px;
+  }
+  .desmuetra_tu_grandeza {
+      width: 1200px;
+  }
+
+  .conecate {
+      width: 350px;
+  }
+  .modal_terminos {
+      padding-top: 5rem;
+      width: 550px;
+  }
+  .lista_terminos {
+      width: 750px;
+  }
+  .bingo {
+      width: 320px;
+  }
+} 
+
+
+@media screen and (min-width:576px) {
+  .bolitas {
+    width: 45px;
+  }
+  @keyframes animar-imagen {
+    0% {
+      transform: scale(1); 
+    }
+    50% {
+      transform: scale(1.5); 
+    }
+    100% {
+      transform: scale(1); 
+    }
+  }
+}
+
+@media screen and (min-width:768px) {
+
+  .img_primero {
+    width: 200px;
+  }
+
+  .bolitas {
+    width: 35px;
+  }
+}
+
+@media screen and (min-width:920px) {
+
+  .bolitas {
+    width: 40px;
+  }
+  @keyframes animar-imagen {
+    0% {
+      transform: scale(1); 
+    }
+    50% {
+      transform: scale(2); 
+    }
+    100% {
+      transform: scale(1); 
+    }
+  }
+}
+
+
+@media screen and (min-width:1200px) {
+
+  .img_primero {
+    width: 300px;
+  }
+
+  .bolitas {
+    width: 50px;
+  }
+  @keyframes animar-imagen {
+    0% {
+      transform: scale(1); 
+    }
+    50% {
+      transform: scale(3); 
+    }
+    100% {
+      transform: scale(1); 
+    }
+  }
+}
+
+@media screen and (min-width:1500px) {
+  .childs-4 {
+    height: auto;
+  }
+
+  .letra_ganador {
+    font-size: 1rem;
+  }
+
+  .img_grandeza {
+    width: 400px;
+  }
+
+  .numero_ganador {
+    font-size: 2rem;
+  }
+
+  .img_9 {
+    width: 400px;
+  }
+
+  .img_numeros {
+    width: 85px;
+  }
+
+  .numero_grande {
+    font-size: 4rem;
+  }
+
+  .letra_escoger {
+    font-size: 1.5rem;
+  }
+
+  .img_primero {
+    width: 300px;
+  }
+
+  .bolitas {
+    width: 70px;
+  }
+}
+
+.tachado{
+  color: #ff0000;
+  background-color: #000;
+  
+}
+#bola{
+  font-size:50px;
+  display:block;
+  margin: 20px auto;
+  width: 5rem;
+  line-height: 5rem;
+  border-radius: 50%;
+  background-color: #000;
+  color: #FFF;
+  text-align:center;
+}
