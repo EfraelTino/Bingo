@@ -136,7 +136,7 @@ body {
 }
 
 .img_numeros {
-    width: 85px;
+    width: 55px;
 }
 
 .letra_ganador {
@@ -191,6 +191,6 @@ body {
         margin: 3rem;
     }
     .contenedor_padre{
-        transform: scale(.5);
+        transform: scale(.7);
     }
 }
